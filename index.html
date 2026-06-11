@@ -12,7 +12,11 @@
 <meta property="og:description" content="Decision-grade analysis tools for short-term rental and real estate investors.">
 <meta property="og:url" content="https://underwritely.github.io/">
 <meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..700&family=Plus+Jakarta+Sans:wght@400..800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/style.css">
+<script>document.documentElement.classList.add('js')</script>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"Organization","name":"Underwritely",
 "url":"https://underwritely.github.io/","slogan":"Underwrite your next move.",
@@ -22,43 +26,146 @@
 <body>
 <header class="site"><div class="wrap">
   <a href="index.html"><span class="brandmark">Underwritely</span></a>
-  <nav><a href="index.html">Home</a><a href="#guides">Guides</a><a href="#tools">Tools</a></nav>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="#guides">Guides</a>
+    <a href="#tools">Tools</a>
+    <a class="nav-cta" href="https://underwritely.gumroad.com/l/STRQuickProfitCalculator">Free calculator</a>
+  </nav>
 </div></header>
 
-<div class="hero"><div class="wrap">
-  <span class="pill">For short-term rental & real estate investors</span>
-  <div><span class="brandmark">Underwritely</span></div>
-  <p class="tag">Underwrite your next move.</p>
-  <p class="lead">Rigorous, plain-English tools that help you analyze a deal <em>before</em> you commit — so a five-figure mistake stays hypothetical.</p>
-  <a class="btn" href="https://underwritely.gumroad.com/l/STRQuickProfitCalculator">Try the free Airbnb calculator →</a>
-</div></div>
+<main>
+<section class="hero" aria-labelledby="hero-heading"><div class="wrap">
+  <div class="hero-split">
+    <div>
+      <span class="pill reveal">For short-term rental &amp; real estate investors</span>
+      <h1 id="hero-heading" class="reveal" style="--reveal-delay:.08s">Underwrite your <span class="accent">next move.</span></h1>
+      <p class="lead reveal" style="--reveal-delay:.16s">Rigorous, plain-English tools that help you analyze a deal <em>before</em> you commit — so a five-figure mistake stays hypothetical.</p>
+      <div class="hero-actions reveal" style="--reveal-delay:.24s">
+        <a class="btn" href="https://underwritely.gumroad.com/l/STRQuickProfitCalculator">Try the free Airbnb calculator <span class="btn-ico">→</span></a>
+        <a class="btn ghost" href="https://underwritely.gumroad.com/l/STRDealUnderwritingModel">See the full model <span class="btn-ico">→</span></a>
+      </div>
+      <p class="hero-note reveal" style="--reveal-delay:.3s">No signup wall. The calculator is pay-what-you-want, including $0.</p>
+    </div>
 
-<section><div class="wrap">
-  <h2 class="center">Buy on numbers, not on hype</h2>
-  <div class="grid">
-    <div class="card"><h3>Underwrite, don't guess</h3><p>Model ADR, occupancy, financing and costs to see real cash flow — not a listing's fantasy.</p></div>
-    <div class="card"><h3>A clear verdict</h3><p>Cash-on-cash, DSCR, IRR and equity multiple roll up into one answer: BUY or WALK.</p></div>
-    <div class="card"><h3>Plain English</h3><p>Built for investors, not analysts. Every assumption is labeled and sourced.</p></div>
+    <div class="verdict-stack reveal" style="--reveal-delay:.2s" aria-hidden="true">
+      <div class="verdict-back">
+        <div class="verdict-head"><span>Deal Verdict</span><span class="verdict-chip">WALK</span></div>
+        <p style="margin:14px 0 0">Break-even occupancy above projection. Margin of safety: none.</p>
+      </div>
+      <div class="shell verdict-shell"><div class="core verdict-card">
+        <div class="verdict-head"><span>Deal Verdict</span><span class="verdict-chip">BUY</span></div>
+        <ul class="verdict-metrics">
+          <li><span>Cash-on-cash return</span><strong>11.2%</strong></li>
+          <li><span>DSCR</span><strong>1.41×</strong></li>
+          <li><span>IRR, 5-yr hold</span><strong>18.6%</strong></li>
+          <li><span>Break-even occupancy</span><strong>48%</strong></li>
+        </ul>
+        <div class="verdict-foot"><span>Stress-tested · −10 pts occupancy</span><span>Survives</span></div>
+      </div></div>
+    </div>
   </div>
 </div></section>
 
-<section id="tools" style="background:var(--soft)"><div class="wrap">
-  <h2>Tools</h2>
-  <p><strong>STR Quick Profit Calculator</strong> — free. A 2-minute gut-check on any short-term rental. <a href="https://underwritely.gumroad.com/l/STRQuickProfitCalculator">Get it free →</a></p>
-  <p><strong>STR Deal Underwriting Model</strong> — $49. The full model: financing, scenarios, sensitivity, and a BUY/WALK verdict, plus the Deal Analysis Playbook. <a href="https://underwritely.gumroad.com/l/STRDealUnderwritingModel">See the model →</a></p>
+<section aria-labelledby="why-heading"><div class="wrap">
+  <div class="section-head reveal">
+    <p class="kicker">Why underwrite</p>
+    <h2 id="why-heading">Buy on numbers, not on hype</h2>
+  </div>
+  <div class="grid">
+    <div class="card span-7 reveal"><div class="card-core">
+      <span class="card-no">01</span>
+      <h3>Underwrite, don't guess</h3>
+      <p>Model ADR, occupancy, financing and costs to see real cash flow — not a listing's fantasy. Every assumption is yours to set, stress, and defend.</p>
+    </div></div>
+    <div class="card span-5 reveal" style="--reveal-delay:.1s"><div class="card-core">
+      <span class="card-no">02</span>
+      <h3>A clear verdict</h3>
+      <p>Cash-on-cash, DSCR, IRR and equity multiple roll up into one answer: BUY or WALK.</p>
+    </div></div>
+    <div class="card span-12 reveal" style="--reveal-delay:.15s"><div class="card-core">
+      <span class="card-no">03</span>
+      <h3>Plain English</h3>
+      <p>Built for investors, not analysts. Every assumption is labeled and sourced — so you always know what a number means and where it came from.</p>
+    </div></div>
+  </div>
 </div></section>
 
-<section id="guides"><div class="wrap">
-  <h2>Start here</h2>
-  <p><a href="blog/how-to-underwrite-a-short-term-rental.html">How to underwrite a short-term rental (Airbnb) deal →</a></p>
-  <p><a href="blog/airbnb-investment-spreadsheet-what-to-track.html">Airbnb investment spreadsheet: what to track (and what most miss) →</a></p>
-  <p><a href="blog/airbnb-profit-calculator.html">Airbnb profit calculator: run the numbers before you buy →</a></p>
-  <p><a href="blog/should-you-buy-a-world-cup-2026-str.html">Should you buy a World Cup 2026 short-term rental? →</a></p>
+<section id="tools" class="tools-band" aria-labelledby="tools-heading"><div class="wrap">
+  <div class="section-head reveal">
+    <p class="kicker">Tools</p>
+    <h2 id="tools-heading">Two ways to run the numbers</h2>
+  </div>
+  <div class="tool-grid">
+    <div class="card tool reveal"><div class="card-core">
+      <span class="tool-tag">Free · Pay what you want</span>
+      <h3>STR Quick Profit Calculator</h3>
+      <p class="price">$0<small>or what you like</small></p>
+      <p>A 2-minute gut-check on any short-term rental. Plug in rate, occupancy and costs — get an instant read on whether the deal deserves a deeper look.</p>
+      <a class="btn ghost" href="https://underwritely.gumroad.com/l/STRQuickProfitCalculator">Get it free <span class="btn-ico">→</span></a>
+    </div></div>
+    <div class="card tool flagship reveal" style="--reveal-delay:.1s"><div class="card-core">
+      <span class="tool-tag">Flagship</span>
+      <h3>STR Deal Underwriting Model</h3>
+      <p class="price">$49<small>one-time</small></p>
+      <ul class="tool-list">
+        <li>Full financing, scenario &amp; sensitivity modeling</li>
+        <li>A clear BUY / WALK verdict on every deal</li>
+        <li>Includes the Deal Analysis Playbook</li>
+      </ul>
+      <a class="btn gold" href="https://underwritely.gumroad.com/l/STRDealUnderwritingModel">See the model <span class="btn-ico">→</span></a>
+    </div></div>
+  </div>
 </div></section>
+
+<section id="guides" aria-labelledby="guides-heading"><div class="wrap">
+  <div class="section-head reveal">
+    <p class="kicker">Guides</p>
+    <h2 id="guides-heading">Start here</h2>
+  </div>
+  <div class="guide-list reveal">
+    <a href="blog/how-to-underwrite-a-short-term-rental.html">
+      <span class="guide-no">01</span>
+      <span class="guide-title">How to underwrite a short-term rental (Airbnb) deal</span>
+      <span class="guide-arrow">→</span>
+    </a>
+    <a href="blog/airbnb-investment-spreadsheet-what-to-track.html">
+      <span class="guide-no">02</span>
+      <span class="guide-title">Airbnb investment spreadsheet: what to track (and what most miss)</span>
+      <span class="guide-arrow">→</span>
+    </a>
+    <a href="blog/airbnb-profit-calculator.html">
+      <span class="guide-no">03</span>
+      <span class="guide-title">Airbnb profit calculator: run the numbers before you buy</span>
+      <span class="guide-arrow">→</span>
+    </a>
+    <a href="blog/should-you-buy-a-world-cup-2026-str.html">
+      <span class="guide-no">04</span>
+      <span class="guide-title">Should you buy a World Cup 2026 short-term rental?</span>
+      <span class="guide-arrow">→</span>
+    </a>
+  </div>
+</div></section>
+</main>
 
 <footer class="site"><div class="wrap">
-  <span>© 2026 Underwritely · <a href="privacy.html">Privacy</a></span>
+  <span><span class="foot-brand">Underwritely</span> · © 2026 · <a href="privacy.html">Privacy</a></span>
   <span>Underwrite your next move.</span>
 </div></footer>
+
+<script>
+(function(){
+  if(window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+    document.querySelectorAll('.reveal').forEach(function(el){el.classList.add('is-in')});
+    return;
+  }
+  var io=new IntersectionObserver(function(entries){
+    entries.forEach(function(e){
+      if(e.isIntersecting){e.target.classList.add('is-in');io.unobserve(e.target)}
+    });
+  },{threshold:.12,rootMargin:'0px 0px -40px 0px'});
+  document.querySelectorAll('.reveal').forEach(function(el){io.observe(el)});
+})();
+</script>
 </body>
 </html>
